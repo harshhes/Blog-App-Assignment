@@ -1,0 +1,9 @@
+{% extends 'base.html' %} 
+    
+{% block content %}
+    {{ blog.content|safe}}
+    <br>
+    <br>
+    <p><b>Category is: </b>{{ category }}</p>
+{% endblock %}
+
