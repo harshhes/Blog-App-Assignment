@@ -1,0 +1,14 @@
+asgiref==3.5.2
+cffi==1.15.1
+cowsay==5.0
+cryptography==38.0.3
+Django==4.1
+django-froala-editor==4.0.14
+django-rest-knox==4.2.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+Pillow==9.2.0
+pycparser==2.21
+PyJWT==2.6.0
+pytz==2022.6
+sqlparse==0.4.2
