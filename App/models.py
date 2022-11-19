@@ -1,4 +1,3 @@
-import PIL
 from django.db import models
 from django.contrib.auth.models import User
 from froala_editor.fields import FroalaField
@@ -18,7 +17,7 @@ class Category(models.Model):
 
 class Blog(models.Model):
     title = models.CharField(max_length=100)
-    content = FroalaField()
+    content = FroalaField(blank=True)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     banner_image = models.ImageField(upload_to='blog', blank=True)
